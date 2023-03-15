@@ -1,0 +1,36 @@
+.register {
+  font-family: $font-family-default;
+
+  .register-header {
+    margin: rem(-23) rem(-35);
+  }
+
+  .register-form {
+    margin: rem(100) 0;
+
+    .title {
+      color: $primaryColor;
+      font-weight: $fontBold;
+      max-width: 70%;
+    }
+
+    .information-container {
+      margin-top: rem(30);
+      padding: rem(30);
+      background: rgba(228 228 228 / 28%);
+
+      .title {
+        font-size: rem(22);
+        font-weight: $fontBold;
+        color: #000000;
+        margin-bottom: rem(20);
+      }
+    }
+  }
+}
+
+.register {
+  .contact-header {
+    margin: rem(0) rem(-50);
+  }
+}

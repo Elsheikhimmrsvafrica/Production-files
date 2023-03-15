@@ -1,0 +1,72 @@
+// Colors
+//$primaryColor: #2a409a;
+$primaryColor: #0024B6;
+$white: white;
+$fontLighter: 100;
+$fontLight: 300;
+$fontRegular: 400;
+$fontMedium: 500;
+$fontSemiBold: 600;
+$fontBold: 700;
+
+$imgPath: "../../images";
+
+$base-size: 16;
+@function rem($target, $context: $base-size) {
+  @return ($target / $base-size) * 1rem;
+}
+
+$default-behaviour: true; //  true or false
+
+//== font-families
+//
+// font family
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/Georgia Regular font.ttf");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/Georgia Regular font.ttf");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/Georgia Regular font.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/georgia bold.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/georgia bold.ttf");
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/georgia bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "GeorgiaFont";
+  src: url("../../fonts/georgia/georgia bold.ttf");
+  font-weight: 900;
+}
+
+$font-family-default: "GeorgiaFont";
+// $font-numbers-default: "Montserrat", sans-serif;
+// $fonts-map-default: ();
+// // font family
+// $font-family-reverse: "Almarai", sans-serif;
+// $font-numbers-reverse: "Almarai", sans-serif;
+// $fonts-map-reverse: ();

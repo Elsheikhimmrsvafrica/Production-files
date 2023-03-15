@@ -1,0 +1,97 @@
+html[lang="en"] {
+  .lang-btn[data-lang="ar"] {
+    display: flex;
+  }
+
+  .lang-btn[data-lang="en"] {
+    display: none;
+  }
+
+  .map-advanced-filter {
+    direction: ltr;
+  }
+}
+
+html[lang="ar"] {
+  .lang-btn[data-lang="en"] {
+    display: flex;
+  }
+
+  .lang-btn[data-lang="ar"] {
+    display: none;
+  }
+
+  .map-advanced-filter {
+    direction: rtl;
+  }
+}
+
+html,
+body {
+  height: 100%;
+
+}
+
+html {
+  font-size: rem(16);
+  scroll-behavior: smooth;
+  @media (max-width: 1300px) {
+    font-size: rem(12);
+  }
+}
+
+body {
+  margin: 0;
+  font-family: $font-family-default !important;
+  overflow-x: hidden;
+}
+
+.mat-typography {
+  font-family: $font-family-default !important;
+}
+
+main {
+  padding: rem(0) rem(50);
+  scrollbar-color: yellow blue;
+  scrollbar-color: #87ceeb #ff5621;
+  scrollbar-color: auto;
+}
+
+.position-relative {
+  position: relative !important;
+}
+
+.blur-overlay {
+  filter: blur(rem(10));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.border-radius-2 {
+  border-radius: rem(12) !important;
+}
+
+.bg-atlas-primary {
+  background: $primaryColor !important;
+}
+
+.border-atlas-primary {
+  border-color: $primaryColor !important;
+}
+
+.text-atlas-primary {
+  color: $primaryColor;
+
+
+}
+
+.bg-atlas-secondary {
+  background: #FCBF28 !important;
+}
+
+.bg-atlas-secondary-light {
+  background: #C7ECFF !important;
+}
+

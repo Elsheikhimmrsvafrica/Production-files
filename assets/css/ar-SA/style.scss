@@ -1,0 +1,11 @@
+//-----------------------------------------------
+
+// =====> main sass key
+// active the next variable if you want arabic direction
+$mainSiteLang: ar;
+$dir: rtl;
+//-----------------------------------------------
+// =====> main sass partial style
+// @import "../ar-SA/bootstrap-grid.rtl.min.css";\
+// @import "../../scss/vendors/bootstrap/style.scss";
+@import "../../scss/main";

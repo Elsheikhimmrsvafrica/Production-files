@@ -1,0 +1,42 @@
+
+.atlas-partners {
+  background-image: url("../../images/popular-background.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: rem(25) rem(20);
+  min-height: rem(300);
+
+  .title {
+    font-size: rem(35);
+    font-weight: $fontMedium;
+    color: $primaryColor;
+    line-height: rem(35);
+
+    .upperTitle {
+      font-weight: $fontRegular;
+      font-size: rem(14);
+      color: #2F2C39;
+    }
+  }
+
+  .items-container {
+    padding: rem(50);
+
+    .item {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+    }
+
+
+    .title {
+      font-size: rem(18);
+      font-weight: $fontBold;
+      color: #2F2C39;
+      margin: rem(15) 0;
+    }
+  }
+}
+

@@ -1,0 +1,63 @@
+
+.about-atlas {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: rem(25) rem(20);
+  min-height: rem(300);
+
+  .title {
+    font-size: rem(35);
+    font-weight: $fontMedium;
+    color: $primaryColor;
+    line-height: rem(35);
+
+    .upperTitle {
+      font-weight: $fontRegular;
+      font-size: rem(14);
+      color: #2F2C39;
+    }
+  }
+
+  .about-container {
+    padding-top: rem(0);
+
+    .content-title {
+      color: #2F2C39;
+      font-size: rem(22);
+      font-weight: $fontMedium;
+      margin-bottom: rem(17);
+      line-height: rem(24);
+    }
+
+    .content {
+      font-size: rem(17);
+      color: #2F2C39;
+      font-weight: $fontRegular;
+      line-height: 20px;
+
+      &-trim {
+        word-break: break-all;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -moz-box-orient: vertical;
+        -ms-box-orient: vertical;
+        box-orient: vertical;
+        -webkit-line-clamp: 5;
+        -moz-line-clamp: 5;
+        -ms-line-clamp: 5;
+        line-clamp: 5;
+        overflow: hidden;
+      }
+
+
+    }
+  }
+
+}
+
+.about {
+  .contact-header {
+    margin: rem(0) rem(-50);
+  }
+}

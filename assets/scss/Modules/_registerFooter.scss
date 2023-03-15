@@ -1,0 +1,45 @@
+.atlas-register-footer {
+  background: $primaryColor;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin-top: rem(50);
+  margin-bottom: rem(50);
+  padding: rem(60) rem(90);
+
+  .content {
+    display: flex;
+    align-items: center;
+
+    .title {
+      font-size: rem(32);
+      font-weight: $fontMedium;
+      color: $white;
+      line-height: rem(25);
+      @media (max-width: 768px) {
+        font-size: rem(24);
+      }
+    }
+
+    .upperTitle {
+      font-weight: $fontRegular;
+      font-size: rem(14);
+      color: $white;
+    }
+  }
+
+  .registerBtn {
+    background: #FCBF28;
+    min-width: rem(100);
+    color: $white;
+    font-family: $font-family-default;
+    display: flex;
+    padding: rem(18) rem(27);
+    align-items: center;
+    font-size: rem(19);
+    justify-content: center;
+    box-sizing: content-box;
+    border-radius: rem(12);
+  }
+
+}

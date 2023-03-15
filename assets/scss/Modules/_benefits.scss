@@ -1,0 +1,65 @@
+.atlas-benefits {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  padding: rem(25) rem(20);
+  min-height: rem(300);
+
+  .title {
+    font-size: rem(35);
+    font-weight: $fontMedium;
+    color: $primaryColor;
+    line-height: rem(35);
+
+    .upperTitle {
+      font-weight: $fontRegular;
+      font-size: rem(14);
+      color: #2F2C39;
+    }
+  }
+
+  .benefits-container {
+    padding-top: rem(70);
+    padding-bottom: rem(70);
+
+
+    .item {
+      .square {
+        width: rem(60);
+        height: rem(60);
+        border-radius: rem(12);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        &.bg-purple {
+          background: #5E5FA7;
+        }
+
+        &.bg-pink {
+          background: #F77474;
+        }
+
+        &.bg-blue {
+          background: #C7ECFF;
+        }
+      }
+
+      .item-title {
+        color: #2F2C39;
+        font-size: rem(22);
+        font-weight: $fontSemiBold;
+        margin: rem(15) 0;
+      }
+
+      .item-content {
+        font-size: rem(16);
+        color: #B6B6B6;
+        font-weight: $fontLight;
+      }
+
+    }
+
+  }
+
+}

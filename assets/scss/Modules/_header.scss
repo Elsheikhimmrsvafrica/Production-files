@@ -1,0 +1,307 @@
+header {
+  height: rem(86);
+  background-color: #0024B6;
+  padding: rem(0) rem(35);
+  display: flex;
+  align-items: center;
+
+  .logo {
+    img {
+      width: rem(300);
+    }
+  }
+
+  .menu {
+    font-family: $font-family-default;
+    font-size: rem(18);
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #ffffff;
+    align-items: center;
+
+    .logo {
+      display: flex;
+
+
+    }
+
+    .menu-seprator {
+      margin: rem(0) rem(15);
+      color: rgba(255, 255, 255, 0.5);
+      opacity: 0.4;
+    }
+
+    .menu-item {
+      opacity: 0.6;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+
+      &.active {
+        opacity: 1;
+      }
+    }
+
+    .languageBtn {
+      width: rem(34);
+      height: rem(34);
+      font-family: $font-family-default;
+      border-radius: 50%;
+      background: rgb(42 64 154);
+      border: rem(1) solid white;
+      box-sizing: border-box;
+      font-size: rem(18);
+      line-height: rem(0);
+      color: white;
+      opacity: 1;
+      margin: rem(0) rem(30);
+      cursor: pointer;
+    }
+
+    .registerBtn {
+      background: #FCBF28;
+      min-width: rem(155);
+      font-size: rem(13);
+      color: $white;
+      font-family: $font-family-default;
+    }
+
+    @media screen and (max-width: 991.98px) {
+      display: none !important;
+    }
+  }
+
+
+}
+
+footer {
+  padding: rem(23) rem(35);
+  font-size: rem(12);
+  color: #C8C8C8;
+}
+
+.header-sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: white;
+  color: $primaryColor !important;
+  z-index: 10;
+  padding: rem(25) rem(35);
+
+  .burger-menu {
+    color: $primaryColor;
+  }
+
+
+  .menu {
+    color: $primaryColor !important;
+  }
+}
+
+.details-container {
+  overflow-y: auto;
+  margin-#{$left}: auto;
+  width: rem(630);
+  max-width: 100%;
+  background-color: $white;
+  height: 100%;
+  border: 1px solid #959595;
+  padding: rem(35);
+  #{$right}: 0;
+  animation: slide-#{$left} 0.2s ease;
+
+  @media (max-width: 991px) {
+    max-width: none;
+    width: 80%;
+  }
+
+  .tab-head {
+    padding-bottom: rem(20);
+    border-radius: 1px;
+    margin-bottom: rem(10);
+  }
+
+  .details-items {
+    padding: rem(40) 0;
+
+    .names {
+      h2 {
+        font-size: rem(24);
+        line-height: rem(36);
+        font-weight: $fontSemiBold;
+        margin-bottom: rem(10);
+      }
+
+      h3 {
+        font-size: rem(24);
+        line-height: rem(36);
+        font-weight: $fontMedium;
+        margin-bottom: rem(10);
+      }
+    }
+  }
+
+  .profile-img {
+    margin: rem(30) 0;
+  }
+}
+
+.floating-details {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  background-color: rgba(#000000, 0.6);
+  z-index: 1000;
+  display: none;
+
+  &.activeDetails {
+    display: block;
+  }
+
+  .head-action {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .mat-raised-button {
+      height: 46px;
+      min-width: 46px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: rem(10);
+
+      &.mat-trans {
+        & + .mat-trans {
+          margin-#{$left}: rem(25);
+        }
+
+        & + .mat-grey {
+          margin-#{$left}: rem(25);
+        }
+      }
+
+      &.mat-grey {
+        background-color: #f6f6f6;
+        padding: rem(10);
+      }
+    }
+  }
+
+  .overlay {
+    position: relative;
+    flex: 1;
+  }
+
+  .closeDetails {
+    position: absolute;
+    #{$left}: 20px;
+    top: 20px;
+    width: rem(23);
+    height: rem(23);
+    cursor: pointer;
+  }
+
+  .details-container {
+    overflow-y: auto;
+    margin-#{$left}: auto;
+    width: rem(630);
+    max-width: 100%;
+    background-color: $white;
+    height: 100%;
+    border: 1px solid #959595;
+    padding: rem(35);
+    #{$right}: 0;
+    animation: slide-#{$left} 0.2s ease;
+
+    @media (max-width: 991px) {
+      max-width: none;
+      width: 70%;
+    }
+
+    .tab-head {
+      padding-bottom: rem(20);
+      border-radius: 1px;
+      margin-bottom: rem(10);
+    }
+
+    .details-items {
+      padding: rem(40) 0;
+
+      .names {
+        h2 {
+          font-size: rem(24);
+          line-height: rem(36);
+          font-weight: $fontSemiBold;
+          margin-bottom: rem(10);
+        }
+
+        h3 {
+          font-size: rem(24);
+          line-height: rem(36);
+          font-weight: $fontMedium;
+          margin-bottom: rem(10);
+        }
+      }
+    }
+  }
+}
+
+.burger-menu {
+  display: block;
+  font-family: $font-family-default;
+  font-size: rem(18);
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0em;
+
+
+  .desktop-nav-icon {
+    cursor: pointer
+  }
+
+  .languageBtn {
+    width: rem(34);
+    height: rem(34);
+    font-family: $font-family-default;
+    border-radius: 50%;
+    background: rgba(199, 236, 255, 0.15);
+    border: rem(1) solid #c7ecff;
+    box-sizing: border-box;
+    font-size: rem(18);
+    line-height: rem(0);
+    color: #c7ecff;
+    opacity: 1;
+    margin: rem(0) rem(30);
+    cursor: pointer;
+  }
+
+  .menu-item {
+    cursor: pointer;
+    margin: rem(10) rem(10)
+  }
+
+  .registerBtn {
+    background: #FCBF28;
+    min-width: rem(155);
+    color: $white;
+    font-family: $font-family-default;
+  }
+
+  svg {
+    fill: white;
+  }
+
+  @media screen and (min-width: 991.98px) {
+    display: none !important;
+  }
+}
+
+.burger-icon-sticky {
+  color: #003CAD;
+}
