@@ -66,7 +66,7 @@
     "mostPopularHandiCrafters": "Most Popular Handicrafters"
   },
   "about": {
-    "carsoualTiti": "Sample of DROSOS supported projects since 2016",
+    "carsoualTiti": "Sample of projects supported by DROSOS FOUNDATION since 2016",
     "about": "About",
     "drososFoundOne": "DROSOS FOUNDATION was established in 2003 as a non-profit organization that supports community development having its headquarters in Zurich, Switzerland. The FOUNDATION is committed to make a long-term impact and unlock the potential of young people through the projects it supports in Egypt, Tunisia, Morocco, Lebanon, Jordan, Palestine, Switzerland, and Germany.",
     "drososFoundTwo": "DROSOS FOUNDATION’s vision is a world where young people can fulfill their full potential and where they have equal opportunities. It supports young people to become economically empowered and resilient. The FOUNDATION has been operational in Egypt since 2005 and has supported more than 125 projects across different governorates; among them, 28 are under the creative economies programme.",
@@ -76,7 +76,7 @@
     "handSubTitle": "Diversity and richness of Egyptian handicrafts",
     "handOne": "Handicrafts are unique expressions that represent the traditions and heritage of a community and their value lies in both their cultural and aesthetic value. Egypt’s rich and diverse cultural heritage is reflected in the scope and breadth of its handicrafts which span from Siwa in the West steeped in Amazigh culture to Sinai in the East with its Bedouin origins; from Aswan in the south, home to Nubian culture, to the Mediterranean coast in the north, with Historic Cairo in the midst of Egypt's cultural diversity which has been largely influenced by the various eras of the Islamic period.",
     "handTow": "The handicrafts sector has faced many challenges, the most devastating being the encroachment of industrial modernization. Yet, key surviving handicrafts remain including: woodwork such as wood turning (arabesque), carving and inlay with various materials, embroidery, pottery and ceramics, traditional patchwork (khayameya), jewellery and accessories, basketry and other products using palm fronds, leather products, brass shaping, etching and engraving, textile weaving, woven and knotted carpets and glass blowing.",
-    "handThree": "DROSOS FOUNDATION recognizes handicrafts as a key sub sector of creative economies and has supported over 28 projects in this field since 2016. DROSOS partners with organizations to enhance the productivity and incomes of craftspeople with interventions along the value chain that aim to create innovative and quality products to bring the highest social impact and economic returns on beneficiaries.",
+    "handThree": "DROSOS FOUNDATION recognizes handicrafts as a key sub sector of creative economies and has supported over 28 projects in this field since 2016. DROSOS partners with organizations to enhance the productivity and incomes of craftspeople with interventions along the value chain that aim to create innovative and quality products to bring the highest social impact",
     "handFour": "",
     "handFive": "Made with Love Catalogue",
     "handSex": "View Catalogue",
@@ -185,6 +185,7 @@
     "applyNow": "Join Atlas Herafy"
   },
   "map": {
+    "craftspeopleList": "Craftspeople List",
     "showList": "Show List",
     "Search": "Search",
     "Reset": "Reset",

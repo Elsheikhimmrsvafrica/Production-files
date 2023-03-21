@@ -1183,7 +1183,7 @@ footer .copyRights{
   background: white;
   position: absolute;
   transition: right 0.6s ease-in-out;
-  z-index: 11;
+  z-index: 11 !important;
   margin-top: 1.25rem;
 }
 .map-sidebar.active {
@@ -1473,14 +1473,15 @@ footer .copyRights{
 }
 
 .search-toggle {
-  position: absolute;
-  top: 3.75rem;
+  cursor: pointer;
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 10;
-  cursor: pointer;
-  right: 2.8125rem;
+  margin: auto;
+  /* z-index: 10; */
+  /* right: 2.8125rem; */
+  /* position: absolute; */
+  /* top: 3.75rem; */
 }
 
 .card-info .item {
@@ -2891,3 +2892,24 @@ p-carousel {
   border-radius: 2.25rem;
 }
 /*# sourceMappingURL=style.css.map */
+/* New Edits from Elsheikh */
+.mat-button, .mat-raised-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button, .mat-fab, .mat-mini-fab,.mat-select{
+  font-family: "GeorgiaFont" !important;
+}
+.map-filter-container{
+  margin-top: 70px !important;
+}
+.map-filter{
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 25px;
+  background-color: #fff;
+  z-index: 8;
+}
+.map{margin-top: 185px;}
+@media(max-width: 992px){
+  .map-filter{
+    top: 25px;
+  }
+}
